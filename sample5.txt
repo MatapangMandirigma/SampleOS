@@ -1,0 +1,522 @@
+   	//   Printing of first half of Spider ACSII art
+23	//   line one and thirteen
+12
+23	//   line two, three, four  
+51
+23	//   line five
+100
+23	//   line six
+165
+23	//   line seven
+206
+29	//   syscall
+50
+
+	//   line one
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '/'
+47
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '/'
+47
+9	//   output
+2
+1	//   ld 9
+9
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line two, three, four
+1	//   ld 3
+3
+16	//   CopyToY
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '|'
+124
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '|'
+124
+9	//   output
+2
+1	//   ld 10
+10
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load | 
+124   
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+17	//   CopyFromY
+14	//   CopyToX
+26	//   DecX
+15	//   CopyFromX
+16	//   CopyToY
+22	//   JNE 54
+54
+24
+
+	//   line five
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '\'
+92
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1	//   ld '\'
+92
+9	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   load \ 
+92    
+9	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line six
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 6
+6
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1    	//   ld _
+95
+9    	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line seven
+1	//   ld 4
+4
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 6
+6
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+   
+      	//   print space borrowed from "sample2.txt" 
+1    	//   ld 1
+1 
+14   	//   CopyToX
+6    	//   LoadSpX  - get parm
+14   	//   CopyToX
+1    	//   ld ' ' 
+32
+9    	//   output
+2
+26   	//   decX
+15   	//   CopyFromX
+22   	//   JNE 236
+236
+24
+
+
+.1000 	//   Timer just returns
+30
+
+.1500
+23	//   line eight
+1513
+23	//   line nine 
+1554
+23	//   line ten
+1605
+23	//   line eleven
+1664
+23	//   line twelve
+1713
+23	//   line thirteen
+12
+30
+
+	//   line eight
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 6
+6
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line nine
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   ld 4
+4
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load / 
+47    
+9	//   output
+2
+1    	//   ld dash 
+45       
+9    	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line ten
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1	//   ld 2
+2
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line eleven
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 4
+4
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load \ 
+92    
+9	//   output
+2
+1    	//   load / 
+47    
+9	//   output
+2
+1	//   ld 4
+4
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
+
+	//   line twelve
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld 10
+10
+27	//   push
+23	//   call spaces
+231
+28	//   remove parm
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   ld ' ' 
+32
+9    	//   output
+2
+1    	//   load | 
+124    
+9	//   output
+2
+1	//   print newline
+10
+9
+2
+24
