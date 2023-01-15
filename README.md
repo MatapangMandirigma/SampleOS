@@ -1,4 +1,5 @@
-README for CS 4348 Project 1
+#README for CS 4348 Project 1
+
 - Project1.java
 This is the CPU of the system. This contains the registers and what to do for every instruction code.
 The CPU also runs the memory and creates the pipe between them. It runs a fetch and execute 
